@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="<%= htmlWebpackPlugin.options.title %>">
+
+    <script src="https://cdn.jsdelivr.net/npm/jdenticon@1.7.2"></script>
+    <style type="text/css">
+        #center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .outline {
+            position: absolute;
+            border: 3px solid red;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<label for="numSoldiers">Number of soldiers</label>
+<input id="numSoldiers" name="numSoldiers" type="number" placeholder="Specify the number of soldiers" value="41">
+<label for="numSteps">Step size</label>
+<input id="numSteps" name="numSteps" type="number" placeholder="3">
+
+<div id="center"></div>
+
+
+</body>
+</html>
