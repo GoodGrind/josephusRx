@@ -1,7 +1,6 @@
 # Getting started
 
-## Clone Typescript Webpack Starter
-
+## Clone and setup the project
 ```bash
 git clone https://github.com/GoodGrind/josephusRx
 cd josephusRx
