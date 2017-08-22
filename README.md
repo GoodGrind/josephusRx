@@ -3,8 +3,8 @@
 ## Clone Typescript Webpack Starter
 
 ```bash
-git clone https://github.com/GoodGrind/josephus
-cd typescript-webpack-starter
+git clone https://github.com/GoodGrind/josephusRx
+cd josephusRx
 # Install the dependencies
 npm install
 ```
